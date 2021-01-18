@@ -79,7 +79,6 @@ export function setLevelConfig(level) {
     track.volume = 0.2;
     track.play();
     Enemy.level = level;
-    return track;
 }
 
 //get random value in range of 2 values
