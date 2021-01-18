@@ -1,8 +1,8 @@
-import Player from '/js/player.js';
-import InputHandler from '/js/input.js';
-import Enemy from '/js/enemy.js';
-import projectile from '/js/projectile.js'
-import { getRandomInt, setLevelConfig } from '/js/methods.js'
+import Player from './js/player.js';
+import InputHandler from './js/input.js';
+import Enemy from './js/enemy.js';
+import projectile from './js/projectile.js'
+import { getRandomInt, setLevelConfig } from './js/methods.js'
 
 function getParameterByName(name, url) {
     if (!url)
