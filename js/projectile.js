@@ -1,5 +1,5 @@
-import Enemy from '/js/enemy.js';
-import { hitDetected, getRandomInt, updateLayout, resetIfOutOfScreen } from '/js/methods.js'
+import Enemy from '/EmojiWar/js/enemy.js';
+import { hitDetected, getRandomInt, updateLayout, resetIfOutOfScreen } from '/EmojiWar/js/methods.js'
 
 export default class projectile {
     constructor(player, destination) {

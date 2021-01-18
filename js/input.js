@@ -1,4 +1,4 @@
-import {generate_projectile} from '/js/GameLoop.js'
+import {generate_projectile} from '/EmojiWar/js/GameLoop.js'
 /* Direction key state */
 export const directions = {
     up: "up",

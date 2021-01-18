@@ -1,8 +1,8 @@
 //import directions from input to check the move direction
-import { directions } from '/js/input.js'
-import { hitDetected } from '/js/methods.js'
-import Enemy from '/js/enemy.js';
-import { getRandomInt, resetIfOutOfScreen, updateLayout } from '/js/methods.js'
+import { directions } from '/EmojiWar/js/input.js'
+import { hitDetected } from '/EmojiWar/js/methods.js'
+import Enemy from '/EmojiWar/js/enemy.js';
+import { getRandomInt, resetIfOutOfScreen, updateLayout } from '/EmojiWar/js/methods.js'
 export var playerCharacters = [
     {
         size: 120,

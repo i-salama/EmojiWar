@@ -1,4 +1,4 @@
-import Enemy from "/js/enemy.js";
+import Enemy from "/EmojiWar/js/enemy.js";
 
 export function hitDetected(enemy, player, removeTolerance) {
     var tolerance = enemy.size / 4;
